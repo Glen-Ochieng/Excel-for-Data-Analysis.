@@ -78,3 +78,35 @@ It looks up the value or a string in a table and returns what you specify.It is 
 
 *=vlookup*(E2,E:G,3,False)*
  
+## CONVERT
+Transforms a time variable from one format to another format, i.e days to hours, hours to days, hours to mins.
+
+*Assume cell B2 = 6, whereby 6 represents 6 hours* 
+
+To change from hour to day 
+
+=CONVERT(B2,"hr","day")
+
+To change from hour to min
+
+=CONVERT(B2, "hr", "min")
+
+To change from hour to year
+=CONVERT(B2, "hr", "yr")
+
+### NB: For conversion to a year consider a year has 365.25 days
+
+
+## DATE
+Converts three separate values into a date.
+
+*Syntax*
+
+DATE(year,month,day)
+
+Assume A2=3, A3=11, A4=2012.
+
+The formula to get a date would be:
+=DATE(A4,A3,A2)
+
+Result = 3/14/2012
