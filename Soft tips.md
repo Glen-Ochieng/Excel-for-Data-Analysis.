@@ -27,3 +27,13 @@ Naming the table enables you to perform functions on the table even if more rows
 
 
 # Creating a new column from existing rows in a table
+
+If you need to create a new column from the ratio of two columns then using @ is quite handy.
+
+Assume you have two columns in a table named bill_length and bill_depth, then you want to create a column called bill_ratio which divides the two. 
+
+*Syntax*
+
+> =[@bill_legtnh]/[@bill_depth]
+
+*The square brackets are becasue you are referencing a table entry and the @ tells excel to perform the division row by row*
