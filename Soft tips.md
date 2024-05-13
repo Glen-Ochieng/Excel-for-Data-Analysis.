@@ -23,4 +23,4 @@ Naming the table enables you to perform functions on the table even if more rows
 >This will sum all entries in the fresh column in the sales table.
 
 
-**Referring to data by object name insteadof cell location minimizes potential formula issues arising from changing the table's size and placement. Tables become crucial in preventing problems like missing data in a PivotTable when new rows are added.** 
+**Referring to data by object name instead of cell location minimizes potential formula issues arising from changing the table's size and placement. Tables become crucial in preventing problems like missing data in a PivotTable when new rows are added.** 
