@@ -34,6 +34,18 @@ Assume you have two columns in a table named bill_length and bill_depth, then yo
 
 *Syntax*
 
-> =[@bill_legtnh]/[@bill_depth]
+> =[@[bill_length]]/[@[bill_depth]]
 
-*The square brackets are becasue you are referencing a table entry and the @ tells excel to perform the division row by row*
+*The square brackets are becasue you are referencing a table entry. 
+
+*Remember to but a bracket before and after @ and one extra at the end of each column name!*
+
+*the @ tells excel to perform the division row by row*
+
+For rows that contain empty values you can use the iferror function to create a value that should appear should an error occur.
+
+*Therefore the new code becomes...*
+
+>=IFERROR([@[bill_length]]/[@[bill_depth]],"")
+
+Thus if empty cells are divided in stead of returning an error , it will bring an empty cell as the result.
