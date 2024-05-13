@@ -26,4 +26,4 @@ Naming the table enables you to perform functions on the table even if more rows
 **Referring to data by object name instead of cell location minimizes potential formula issues arising from changing the table's size and placement. Tables become crucial in preventing problems like missing data in a PivotTable when new rows are added.** 
 
 
-
+#Creating a new column from existing rows in a table
