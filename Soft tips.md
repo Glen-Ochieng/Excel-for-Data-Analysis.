@@ -20,4 +20,7 @@ Naming the table enables you to perform functions on the table even if more rows
 
 = SUM(sales[fresh])
 
->This will sum all entries in the fresh column in the sales table. 
+>This will sum all entries in the fresh column in the sales table.
+
+
+<b>Referring to data by object name insteadof cell location minimizes potential formula issues arising from changing the table's size and placement. Tables become crucial in preventing problems like missing data in a PivotTable when new rows are added. 
