@@ -3,3 +3,5 @@ Putting data in Tables is among the simplest ways to be efficient in Excel. It a
 *Eg*
 
 = UPPER(Table1[#Headers]] )
+
+>This will create a upper case column headers of the table headers in the cell you wrote the function in.
