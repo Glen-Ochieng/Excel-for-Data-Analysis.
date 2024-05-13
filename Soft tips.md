@@ -19,3 +19,5 @@ Naming the table enables you to perform functions on the table even if more rows
 *To reference the table and a specific column you cite it inside square brackets*
 
 = SUM(sales[fresh])
+
+>This will sum all entries in the fresh column in the sales table. 
