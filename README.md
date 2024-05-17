@@ -72,6 +72,18 @@ Removes unwanted spaces from a cell without removing the spaces between the word
 
 =TRIM(A1)
 
+## FILTER
+
+Filters an array based on a certain condition(s). The condition could be a logical expression, value to match or a formula. 
+
+*Syntax*
+
+=FILTER(cell_range, condition, [if empty_then do this])
+
+*Example*
+
+=FILTER(A:G,A="Sticky Notes", )
+
 ## VLOOKUP
 It looks up the value or a string in a table and returns what you specify.It is used to when you want to find the column associated with a cell say you have an id cell and you want to find information associated with that id that's located in a certain column. 
 
