@@ -84,6 +84,13 @@ Filters an array based on a certain condition(s). The condition could be a logic
 
 =FILTER(A:G,A="Sticky Notes", )
 
+![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/1383c0bc-0a0d-4dbe-bbe9-4e895f9e0f38)
+
+**However, the two conditions must be enclosed in brackets**
+
+![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/04235123-e0bf-499a-b0bd-691addd550e3)
+
+
 ## VLOOKUP
 It looks up the value or a string in a table and returns what you specify.It is used to when you want to find the column associated with a cell say you have an id cell and you want to find information associated with that id that's located in a certain column. 
 
