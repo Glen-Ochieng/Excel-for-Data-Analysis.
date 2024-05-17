@@ -41,6 +41,9 @@ Used to count and simulateneously check a condition of a particular range
 *Criteria to check can increase but the range to count remains one*
 =countifs (rangetocheck1,criteriatocheck1, rangetocheck2,criteriatocheck2,etc)
 
+## COUNTA
+Unlike the function COUNT(), COUNTA() counts <u> not <> 
+
 ## UNIQUE
 Shows unique entries in that column.
 
