@@ -137,7 +137,7 @@ This function is only avaliable in Excel 365, but you can work around it by usin
 
 *Syntax*
 
-=VSTACK(range1, range2)
+=VSTACK(range1, range2)  eg =vstack(a2:e10,a12:e35)
 
 ![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/fbd41f9d-1976-4f6f-a8bd-f1e39e8fcf4a)
 
