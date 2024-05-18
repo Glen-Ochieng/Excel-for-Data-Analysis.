@@ -34,10 +34,9 @@ Used to sum and simulateneously check a condition of a particular range
 ## Sortby
 
 *Syntax*
-
-=sortby(rangetosum, rangetocheck1,criteriatocheck1, rangetocheck2,criteriatocheck2,etc)
-
 Used to sort a range by a certain condition or conditions.
+
+=sortby(rangetosort, rangetocheck1,ascending/descending-order1, rangetocheck2,ascending/descending order 2,etc)
 
 ![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/337e1a3a-dc34-4d70-9642-34e6a02e53f7)
 
