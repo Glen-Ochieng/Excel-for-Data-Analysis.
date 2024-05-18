@@ -31,6 +31,17 @@ Used to sum and simulateneously check a condition of a particular range
 
 *=SUMIFS(G2:G8808,E2:E8808,">1990",E2:E8808,"<2000",B2:B8808,"Movie")*
 
+## Sortby
+
+*Syntax*
+
+=sortby(rangetosum, rangetocheck1,criteriatocheck1, rangetocheck2,criteriatocheck2,etc)
+
+Used to sort a range by a certain condition or conditions.
+
+![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/337e1a3a-dc34-4d70-9642-34e6a02e53f7)
+
+
 ## Countifs
 Used to count and simulateneously check a condition of a particular range
 
