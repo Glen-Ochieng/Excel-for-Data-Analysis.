@@ -127,6 +127,19 @@ A replacement to the VLOOKUP
 
 This looks up the corresponding values matched to the product_id in from the transactions table to the products table product_id and returns the entries in the product name column
 
+## VSTACK
+
+This allows vertical appending of arrays. This is particulartly useful for merging data from multiple sheets. 
+
+#### NB
+
+This function is only avaliable in Excel 365, but you can work around it by using Google Sheets.
+
+*Syntax*
+
+=VSTACK(range1, range2)
+
+![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/fbd41f9d-1976-4f6f-a8bd-f1e39e8fcf4a)
 
 ## CONVERT
 Transforms a time variable from one format to another format, i.e days to hours, hours to days, hours to mins.
