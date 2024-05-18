@@ -109,7 +109,25 @@ It looks up the value or a string in a table and returns what you specify.It is 
 =VLOOKUP(lookupvalue- the cell, table array- this will be multiple columns,column index number- the column number in the table array of the information you want, range lookup- normally true or false statement but usually use false to write the exact match, true returns an approximate match)
 
 *=vlookup*(E2,E:G,3,False)*
- 
+
+
+## XLOOKUP
+
+A replacement to the VLOOKUP 
+
+![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/4256fa83-4f9b-49db-bf5a-96879072f78d)
+
+
+*Example*
+
+![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/26d7e5f1-077c-4bfd-9cf1-46fab9db5ee4)
+
+
+ =XLOOKUP(transactions[product_id],products[product_id],products[product_name])
+
+This looks up the corresponding values matched to the product_id in from the transactions table to the products table product_id and returns the entries in the product name column
+
+
 ## CONVERT
 Transforms a time variable from one format to another format, i.e days to hours, hours to days, hours to mins.
 
