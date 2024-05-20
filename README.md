@@ -173,3 +173,19 @@ The formula to get a date would be:
 =DATE(A4,A3,A2)
 
 Result = 3/14/2012
+
+## TEXT JOIN
+
+Does the **inverse** of text-to-column wizard that  splits texts by certain delimiters. This function combines cell entries by certain delimeters i.e whitespace, commas, hypens etc.
+
+*Syntax*
+
+=TEXTJOIN(delimiter, TRUE/FALSE, cell-1, cell-2)
+
+TRUE= ignores blank cells
+
+FALSE = does not ignore blank cells
+
+*Example*
+
+=TEXTJOIN(" ",TRUE,J2,J3)
