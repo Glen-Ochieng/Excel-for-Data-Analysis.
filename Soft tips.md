@@ -49,3 +49,8 @@ For rows that contain empty values you can use the iferror function to create a 
 >=IFERROR([@[bill_length]]/[@[bill_depth]],"")
 
 Thus if empty cells are divided in stead of returning an error , it will bring an empty cell as the result.
+
+
+## Excel for Python
+
+![Uploading image.png…]()
