@@ -53,4 +53,5 @@ Thus if empty cells are divided in stead of returning an error , it will bring a
 
 ## Excel for Python
 
-![Uploading image.png…]()
+![image](https://github.com/Glen-Ochieng/Excel-for-Data-Analysis./assets/155974295/2fc3389f-e99c-48ac-ae80-83f4ce4cd492)
+
